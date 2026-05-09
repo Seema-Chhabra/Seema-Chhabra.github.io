@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Works — Bharathi S.</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ── NAV ──────────────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Bharathi <span>S.</span></a>
+    <button class="nav__toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="works.html">My Works</a></li>
+      <li><a href="students.html">Students' Works</a></li>
+      <li><a href="contact.html">Get in Touch</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── PAGE HEADER ───────────────────────────────────────────── -->
+<div class="page-top">
+  <div style="background:var(--cream); border-bottom:1px solid var(--border); padding-block:60px 48px;">
+    <div class="container">
+      <div class="section-label">Portfolio</div>
+      <div class="divider"></div>
+      <h1 style="font-size:clamp(2rem,4vw,3.2rem); font-weight:300;">My Works</h1>
+      <p style="color:var(--muted); margin-top:12px; max-width:52ch;">
+        A collection of paintings spanning figurative work, everyday scenes,
+        and explorations of light and colour.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ── WORKS LIST ────────────────────────────────────────────── -->
+<section class="section container">
+  <div class="artwork-list">
+
+    <!-- ── WORK 1 ── -->
+    <div class="artwork-item">
+      <div class="artwork-item__images">
+        <!--
+          Main image — replace src with your actual image path.
+          E.g.: src="images/works/lagoon-memoirs-main.jpg"
+        -->
+        <img
+          class="artwork-item__main img-placeholder"
+          src=""
+          alt="Lagoon Memoirs"
+          style="aspect-ratio:4/3; background:var(--border); display:flex; align-items:center; justify-content:center;"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="img-placeholder artwork-item__main" style="aspect-ratio:4/3; display:flex;">
+          Main Image — Lagoon Memoirs
+        </div>
+
+        <!--
+          Detail thumbnails — add up to 2 alternate views.
+          Remove this block if you only have one image.
+        -->
+        <div class="artwork-item__thumbs">
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 1</div>
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 2</div>
+        </div>
+      </div>
+
+      <div class="artwork-item__info">
+        <h2 class="artwork-item__title">Lagoon Memoirs</h2>
+        <p class="artwork-item__meta">Acrylic on Canvas &nbsp;·&nbsp; 48″ × 33″</p>
+        <div class="divider"></div>
+        <p class="artwork-item__desc">
+          Two boys at the edge of a lotus lagoon, engrossed in the quiet work
+          of childhood. A fragmented, colour-block background gives way to
+          tender figurative detail — the tension between abstraction and
+          representation that defines much of my recent work.
+        </p>
+        <!-- Optional: add a price or "Available" tag -->
+        <!-- <p style="margin-top:20px; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent);">Available</p> -->
+      </div>
+    </div>
+
+    <div class="artwork-separator"></div>
+
+    <!-- ── WORK 2 ── -->
+    <div class="artwork-item">
+      <div class="artwork-item__images">
+        <div class="img-placeholder artwork-item__main" style="aspect-ratio:4/3; display:flex;">
+          Main Image — Leap n Bounce
+        </div>
+        <div class="artwork-item__thumbs">
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 1</div>
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 2</div>
+        </div>
+      </div>
+      <div class="artwork-item__info">
+        <h2 class="artwork-item__title">Leap n Bounce</h2>
+        <p class="artwork-item__meta">Acrylic on Canvas</p>
+        <div class="divider"></div>
+        <p class="artwork-item__desc">
+          Figures descend broad stone steps in a cascade of colour and movement.
+          The painting captures a fleeting moment of everyday life — a mother,
+          her children, the city stairs that connect them all.
+        </p>
+      </div>
+    </div>
+
+    <div class="artwork-separator"></div>
+
+    <!-- ── WORK 3 ── -->
+    <div class="artwork-item">
+      <div class="artwork-item__images">
+        <div class="img-placeholder artwork-item__main" style="aspect-ratio:4/3; display:flex;">
+          Main Image — Reminiscence
+        </div>
+        <div class="artwork-item__thumbs">
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 1</div>
+          <div class="img-placeholder" style="aspect-ratio:1;">Detail 2</div>
+        </div>
+      </div>
+      <div class="artwork-item__info">
+        <h2 class="artwork-item__title">Reminiscence</h2>
+        <p class="artwork-item__meta">Acrylic on Canvas</p>
+        <div class="divider"></div>
+        <p class="artwork-item__desc">
+          A solo exhibition piece celebrating childhood games and the
+          memories that outlast us. Shown at the Chitrakala Parishat,
+          Bengaluru, and featured in Vijayavani, November 2022.
+        </p>
+      </div>
+    </div>
+
+    <div class="artwork-separator"></div>
+
+    <!--
+      ── HOW TO ADD MORE WORKS ─────────────────────────────────
+      Copy the block below, fill in your details, and paste it
+      after the last <div class="artwork-separator"></div>.
+
+      <div class="artwork-item">
+        <div class="artwork-item__images">
+          <img class="artwork-item__main" src="images/works/YOUR-FILE.jpg" alt="Your Title" />
+          <div class="artwork-item__thumbs">
+            <img src="images/works/YOUR-FILE-detail1.jpg" alt="Detail" />
+            <img src="images/works/YOUR-FILE-detail2.jpg" alt="Detail" />
+          </div>
+        </div>
+        <div class="artwork-item__info">
+          <h2 class="artwork-item__title">Your Title</h2>
+          <p class="artwork-item__meta">Acrylic on Canvas · Size</p>
+          <div class="divider"></div>
+          <p class="artwork-item__desc">Your description here.</p>
+        </div>
+      </div>
+
+      <div class="artwork-separator"></div>
+      ─────────────────────────────────────────────────────────
+    -->
+
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer__logo">Bharathi <span>S.</span></div>
+  <p class="footer__tagline">Painter · Teacher · Storyteller</p>
+  <ul class="footer__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="students.html">Students</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">&copy; 2024 Bharathi S. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

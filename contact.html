@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get in Touch — Bharathi S.</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ── NAV ──────────────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Bharathi <span>S.</span></a>
+    <button class="nav__toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="works.html">My Works</a></li>
+      <li><a href="students.html">Students' Works</a></li>
+      <li><a href="contact.html">Get in Touch</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── PAGE HEADER ───────────────────────────────────────────── -->
+<div class="page-top">
+  <div style="background:var(--cream); border-bottom:1px solid var(--border); padding-block:60px 48px;">
+    <div class="container">
+      <div class="section-label">Connect</div>
+      <div class="divider"></div>
+      <h1 style="font-size:clamp(2rem,4vw,3.2rem); font-weight:300;">Get in Touch</h1>
+    </div>
+  </div>
+</div>
+
+<!-- ── CONTACT CONTENT ───────────────────────────────────────── -->
+<section class="section container">
+  <div class="contact-grid">
+
+    <!-- Left: info -->
+    <div class="contact-info">
+      <div class="section-label">Let's talk</div>
+      <div class="divider"></div>
+      <h2>I'd love to hear from you</h2>
+      <p>
+        Whether you're interested in purchasing a painting, commissioning
+        a piece, or joining one of my art classes — please don't hesitate
+        to reach out.
+      </p>
+
+      <div class="contact-detail">
+
+        <div class="contact-detail__item">
+          <div class="contact-detail__label">Email</div>
+          <div class="contact-detail__value">
+            <!--
+              Replace with your actual email address.
+            -->
+            <a href="mailto:hello@bharathipaintings.com">hello@bharathipaintings.com</a>
+          </div>
+        </div>
+
+        <div class="contact-detail__item">
+          <div class="contact-detail__label">Phone / WhatsApp</div>
+          <div class="contact-detail__value">
+            <!--
+              Replace with your actual number.
+            -->
+            <a href="tel:+919XXXXXXXXX">+91 9X XXXX XXXX</a>
+          </div>
+        </div>
+
+        <div class="contact-detail__item">
+          <div class="contact-detail__label">Location</div>
+          <div class="contact-detail__value">Bengaluru, Karnataka, India</div>
+        </div>
+
+        <div class="contact-detail__item">
+          <div class="contact-detail__label">Instagram</div>
+          <div class="contact-detail__value">
+            <!--
+              Replace with your actual Instagram handle.
+            -->
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener">
+              @yourusername
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-detail__item">
+          <div class="contact-detail__label">Classes</div>
+          <div class="contact-detail__value">
+            Enquire for batch timings &amp; availability
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right: form -->
+    <div class="contact-form">
+      <div class="section-label">Send a Message</div>
+      <div class="divider"></div>
+
+      <!--
+        This form collects info client-side only (no server needed for GitHub Pages).
+        To actually receive emails you can:
+          Option A — Use Formspree: change action to "https://formspree.io/f/YOUR_ID" and remove the JS submit handler.
+          Option B — Use Netlify Forms: add netlify attribute to <form>.
+          Option C — Keep as-is and use the contact details above.
+      -->
+      <form id="contact-form" novalidate>
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Full name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Artwork enquiry / Classes / Other" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me what you're looking for…" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--accent" style="width:100%; text-align:center; padding-block:14px;">
+          Send Message
+        </button>
+
+        <p style="font-size:12px; color:var(--muted); margin-top:16px; line-height:1.6;">
+          I typically respond within 1–2 business days.
+        </p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer__logo">Bharathi <span>S.</span></div>
+  <p class="footer__tagline">Painter · Teacher · Storyteller</p>
+  <ul class="footer__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="works.html">Works</a></li>
+    <li><a href="students.html">Students</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer__copy">&copy; 2024 Bharathi S. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
