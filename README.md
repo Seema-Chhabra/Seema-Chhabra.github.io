@@ -1,13 +1,13 @@
-# Bharathi Paintings — Website
+# Seema Paintings — Website
 
-A clean, elegant multi-page static website for **Bharathi S.**, built for GitHub Pages.
+A clean, elegant multi-page static website for **Seema C.**, built for GitHub Pages.
 
 ---
 
 ## File Structure
 
 ```
-bharathi-paintings/
+Seema-paintings/
 │
 ├── index.html          ← Home page
 ├── about.html          ← About Me
@@ -38,10 +38,10 @@ bharathi-paintings/
 
 ## Deploying to GitHub Pages
 
-1. Create a new GitHub repository (e.g. `bharathi-paintings`).
+1. Create a new GitHub repository (e.g. `Seema-paintings`).
 2. Upload all files maintaining the folder structure above.
 3. Go to **Settings → Pages** → Source: **main branch / root**.
-4. Your site will be live at `https://yourusername.github.io/bharathi-paintings/`.
+4. Your site will be live at `https://yourusername.github.io/Seema-paintings/`.
 
 ---
 
@@ -50,12 +50,12 @@ bharathi-paintings/
 ### Hero image (`index.html`)
 Replace the placeholder `<div>` in the hero section with:
 ```html
-<img src="images/hero.jpg" alt="Bharathi S. painting" />
+<img src="images/hero.jpg" alt="Seema C. painting" />
 ```
 
 ### About portrait (`about.html`)
 ```html
-<img src="images/portrait.jpg" alt="Bharathi S." />
+<img src="images/portrait.jpg" alt="Seema C." />
 ```
 
 ### Adding a new artwork (`works.html` or `students.html`)
